@@ -80,16 +80,17 @@ following commands from the root of this project:
 
 ### Docker Execution
 
-build image
+To build the docker image 
 
 ```shell
 docker build -t product-page .
 ```
 
-run docker
+To launch the docker container with the image
 
 ```shell
 docker run -p 4567:4567 product-page
 ```
+To view the Middleman Information page in a [browser](http://localhost:4567/__middleman)
 
-view in [browser](http://localhost:4567/)
+To view the local product example page in a [browser](http://localhost:4567/)

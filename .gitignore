@@ -25,3 +25,6 @@ Staticfile.auth
 
 # Local file history 
 .history/*
+
+# Local Ruby Stuff
+/vendor*
